@@ -1,0 +1,20 @@
+body{
+    margin: auto;
+  }
+  .header{
+        background-image: url("../images/landing.jpg");
+        background-size: cover;
+        overflow: hidden;
+        margin-left: -1%;
+        margin-right: -1%;
+    }
+    .logo {
+      padding: 350px;
+      text-align: center;
+      color: white;
+      font-size: 40px;
+  }
+  .boldSlogan {
+      font-weight: bold;
+    }
+    
