@@ -9,12 +9,13 @@ body{
         margin-right: -1%;
     }
     .logo {
-      padding: 350px;
-      text-align: center;
+      padding: 30px;
+      text-align:center;
       color: white;
       font-size: 40px;
   }
   .boldSlogan {
       font-weight: bold;
     }
+
     
