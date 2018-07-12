@@ -1,21 +1,60 @@
 body{
     margin: auto;
   }
-  .header{
-        background-image: url("../images/landing.jpg");
+.header{
+        background-image: url("../images/img2.jpeg");
         background-size: cover;
         overflow: hidden;
         margin-left: -1%;
         margin-right: -1%;
     }
-    .logo {
+.logo {
       padding: 10px;
       text-align:center;
       color: white;
       font-size: 40px;
   }
-  .boldSlogan {
+.boldSlogan {
       font-weight: bold;
     }
+/* 
+.skills{
+    background-image: url("../images/img3.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+} */
 
-    
+
+.about{
+    /* background-image: url("../images/img5.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%; */
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;                                                                                                                                                                                                                                                                                                   px;
+}
+
+.project{
+    background-image: url("../images/img5.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.back {
+    padding: 10px;
+    text-align:
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+}

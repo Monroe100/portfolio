@@ -10,63 +10,154 @@
     <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
     <link href="css/aos.css"rel="stylesheet"type="text/css">
     <script src="bower_components/aos/dist/aos.js"></script>
-    <script src="js/aos.js" charset="utf-8"></script>
-
+	<script src="js/aos.js" charset="utf-8"></script>
+	<div class="nav">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <style>
+		body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+		.w3-row-padding img {margin-bottom: 12px}
+		/* Set the width of the sidebar to 120px */
+		.w3-sidebar {width: 120px;background: #222;}
+		/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+		#main {margin-left: 120px}
+		/* Remove margins from "page content" on small screens */
+		@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+		</style>
+		<body class="w3-black">
+		
+		<!-- Icon Bar (Sidebar - hidden on small screens) -->
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
 </head>
 <body>
+   <!-- Avatar image in top left corner -->
    
-  <div class="container">
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"  style="width:100%;background-color:black;"    >
-				<a style="background-color:black;color:white;"href="home.html" class="w3-bar-item w3-button">Home</a>
-				<a style="background-color:black;color:white;margin-left:-5px;"href="#" class="w3-bar-item w3-button">About</a>
-				<a style="background-color:black;color:white;margin-left:-5px;"href="#" class="w3-bar-item w3-button">Contact Me</a>
-				<a style="background-color:black;color:white;margin-left:-5px;"href="projects.html" class="w3-bar-item w3-button">Projects</a>
-			</nav>
-
+   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+	 <i class="fa fa-home w3-xxlarge"></i>
+	 <p>HOME</p>
+   </a>
+   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	 <i class="fa fa-user w3-xxlarge"></i>
+	 <p>SKILLS</p>
+   </a>
+   <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	 <i class="fa fa-eye w3-xxlarge"></i>
+	 <p><P>PROJECTS</P></p>
+   </a>
+   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+	 <i class="fa fa-envelope w3-xxlarge"></i>
+	 <p>CONTACT</p>
+   </a>
+ </nav>
+</div>
+ 
     <div class="header">
       <div class="logo">
-		<img src="images/back.jpeg">
-		<p>Michelle Claire</span></p>
+		
+				<!-- <img src="images/blank.png"> -->
+				
+				<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+				 <div style="font-family: 'Courgette', cursive;">
+					<p>Hi I am Michelle Claire,</p>
+					<p>a full stack  software developer.</p>
+				
+			<!--about me section-->
+			<div class="about">
+				<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+				<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+				<div style="font-family: 'Oleo Script', cursive;">
+				<p>Am a person of a positive mindset and of a calm attitude who likes working with others.</p>
+				<p>I enjoy roads trips </p>
+			</div>
+			</div>
+				<!--end of about me-->
         
-      </div>
+    </div>
 	</div>
-	<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
-	<p>I am a </p>
-	<p></p>
-	<p></p>
-	<p></p>
-
-	<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CONTACT</span></h5>
-	<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
-		<div class="w3-row">
-		  <div class="w3-col m5">
-		  <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Me</span></div>
-			<h3>Address</h3>
-			<p>Feel free to reach me through </p>
-			<p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Nairobi,Kenya</p>
-			<p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>+2540708694250</p>
-			<p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>michelle1hunnid@gmail.com</p>
-		  </div>
-		  <div class="w3-col m7">
-			<form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-			<div class="w3-section">      
-			  <label>Name</label>
-			  <input class="w3-input" type="text" name="Name" required>
+</div>
+				
+  <div class="projects">
+	<div class="w3-container w3-padding-60 w3-center" id="team">
+			<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">PROJECTS</span></h5>
+			<p>Here are some of the projects I have worked on</p>
+			
+			<div class="w3-row-padding">
+				<div class="w3-third w3-container w3-margin-bottom">
+					
+					<div class="w3-container w3-white">
+						<p><b>GitHub Search</b></p>
+						<p>An application that allows a user to search for a GitHub user and view various repositories of the user.</p>
+					</div>
+				</div>
+				<div class="w3-third w3-container w3-margin-bottom">
+					
+					<div class="w3-container w3-white">
+						<p><b>Quotes Project</b></p>
+						<p>An application that allows users to submit quotes, view other quotes and either upvote or downvote on them</p>
+					</div>
+				</div>
+				<div class="w3-third w3-container">
+					
+					<div class="w3-container w3-white">
+						<p><b>NewsHighlights</b></p>
+						<p>An application that easily allows users to view news from their Various favourite channels depending on the category of their choice</p>
+					</div>
+				</div>
 			</div>
-			<div class="w3-section">      
-			  <label>Email</label>
-			  <input class="w3-input" type="text" name="Email" required>
-			</div>
-			<div class="w3-section">      
-			  <label>Message</label>
-			  <input class="w3-input" type="text" name="Message" required>
-			</div>  
-			<button type="submit" class="w3-button w3-right w3-theme">Send</button>
-			</form>
-		  </div>
 		</div>
-	  </div>
+		
+
+				<!--skills-->
+
+			<div class="skills">
+			<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">SKILLS</span></h5>
+			<div class="w3-row-padding" style="margin:0 -16px">
+				<div class="w3-half">
+				  <img src="images/python.jpeg" style="width:10%">
+				  <img src="images/rocks.jpg" style="width:100%">
+				  <img src="images/sailboat.jpg" style="width:100%">
+				</div>
+		  
+				<div class="w3-half">
+				  <img src="images/underwater.jpg" style="width:100%">
+				  <img src="images/chef.jpg" style="width:100%">
+				  <img src="images/wedding.jpg" style="width:100%">
+				  <img src="images/p6.jpg" style="width:100%">
+				</div>
+			</div>
+
+				<!--end of skills-->
+
+
+				<!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Nairobi, Kenya</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +254708694250</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: michelle1hunnid@gmail.com</p>
+	</div><br>
+	
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
 	  
-	</html>
-    
+			
+			</html>
                         
